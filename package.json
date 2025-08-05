@@ -1,14 +1,14 @@
 {
-  "name": "gemini-proxy-server",
-  "version": "1.0.0",
-  "description": "Proxy server to securely call Google Gemini API.",
-  "main": "server.js",
-  "scripts": {
-    "start": "firebase emulators:start"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
-    "firebase-tools": "^13.0.0"
-  }
+	"name": "gemini-proxy-server",
+	"version": "1.0.0",
+	"description": "Proxy server to securely call Google Gemini API.",
+	"main": "server.js",
+	"scripts": {
+		"start": "firebase emulators:start"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"firebase-tools": "^13.0.0"
+	}
 }

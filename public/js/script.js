@@ -9,5 +9,5 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-    // No hay lógica de chatbot aquí
+	// No hay lógica de chatbot aquí
 });

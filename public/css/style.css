@@ -1,4 +1,3 @@
-
 /*
  * Archivo de Estilos Personalizados para "Vida con IA"
  * Este archivo contiene estilos CSS adicionales que complementan el framework Tailwind CSS.
@@ -9,21 +8,21 @@
  *  Estilos Base
  * =========================== */
 body {
-    font-family: 'Inter', sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 /* ===========================
  *  Estilos de Componentes Específicos
  * =========================== */
 .bg-hero {
-    background: linear-gradient(135deg, #4F46E5 0%, #3B82F6 100%);
+	background: linear-gradient(135deg, #4F46E5 0%, #3B82F6 100%);
 }
 
 .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
