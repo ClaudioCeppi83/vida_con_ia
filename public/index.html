@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Aprende a usar la Inteligencia Artificial en tu día a día con nuestro curso práctico. Simplifica tareas, potencia tu creatividad y resuelve problemas cotidianos.">
-    <meta name="keywords" content="IA, inteligencia artificial, curso de IA, vida cotidiana, productividad, creatividad, ChatGPT, Gemini">
+    <meta name="keywords" content="IA, inteligencia artificial, curso de IA, productividad, creatividad, ChatGPT, Gemini">
     <title>Vida con IA - Curso de IA para la Vida Cotidiana</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tudominio.com/"> <!-- Reemplazar con el dominio real -->
+    <meta property="og:title" content="Vida con IA - Curso de IA para la Vida Cotidiana">
+    <meta property="og:description" content="Aprende a usar la Inteligencia Artificial en tu día a día con nuestro curso práctico. Simplifica tareas, potencia tu creatividad y resuelve problemas cotidianos.">
+    <meta property="og:image" content="https://www.tudominio.com/assets/images/ilustracion-solucion-ia.webp"> <!-- Reemplazar con el dominio real y la ruta de la imagen -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.tudominio.com/"> <!-- Reemplazar con el dominio real -->
+    <meta property="twitter:title" content="Vida con IA - Curso de IA para la Vida Cotidiana">
+    <meta property="twitter:description" content="Aprende a usar la Inteligencia Artificial en tu día a día con nuestro curso práctico. Simplifica tareas, potencia tu creatividad y resuelve problemas cotidianos.">
+    <meta property="twitter:image" content="https://www.tudominio.com/assets/images/ilustracion-solucion-ia.webp"> <!-- Reemplazar con el dominio real y la ruta de la imagen -->
+
     <!-- Tailwind CSS desde CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Fuente Inter desde Google Fonts -->
@@ -100,7 +115,7 @@
                     <!-- Tarjeta 2 -->
                     <div class="card bg-white p-8 rounded-xl shadow-md border border-gray-200">
                         <div class="flex justify-center mb-4">
-                             <img id="card-2-img" src="assets/images/icono-practico.webp" alt="Icono de herramientas cruzadas, simbolizando un enfoque 100% práctico." class="h-12 w-12 text-indigo-500">
+                            <img id="card-2-img" src="assets/images/icono-practico.webp" alt="Icono de herramientas cruzadas, simbolizando un enfoque 100% práctico." class="h-12 w-12 text-indigo-500">
                         </div>
                         <h3 class="text-xl font-bold mb-2">Resultados Reales desde el Día 1</h3>
                         <p class="text-base md:text-lg text-gray-600">
@@ -110,39 +125,13 @@
                     <!-- Tarjeta 3 -->
                     <div class="card bg-white p-8 rounded-xl shadow-md border border-gray-200">
                         <div class="flex justify-center mb-4">
-                             <img id="card-3-img" src="assets/images/icono-dia-a-dia.webp" alt="Icono de un calendario con un corazón, representando la integración de la IA en el día a día." class="h-12 w-12 text-indigo-500">
+                            <img id="card-3-img" src="assets/images/icono-dia-a-dia.webp" alt="Icono de un calendario con un corazón, representando la integración de la IA en el día a día." class="h-12 w-12 text-indigo-500">
                         </div>
                         <h3 class="text-xl font-bold mb-2">La IA, Tu Mejor Aliada</h3>
                         <p class="text-base md:text-lg text-gray-600">
                             Descubre cómo la IA puede automatizar tus tareas, potenciar tu creatividad y planificar tu vida.
                         </p>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sección interactiva de Gemini ✨ -->
-        <section class="py-16 px-4 md:px-8 bg-indigo-50">
-            <div class="container mx-auto text-center max-w-3xl">
-                <h2 class="text-2xl md:text-3xl font-bold text-indigo-700 mb-4">
-                    Tu Primer Paso hacia una Vida Más Inteligente con IA
-                </h2>
-                <p class="text-base md:text-lg text-gray-600 mb-8">
-                    Usa esta pequeña demo para ver cómo la IA puede ayudarte a resolver un problema o a generar una idea. ¡Es solo una muestra de lo que aprenderás!
-                </p>
-                <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-                    <textarea id="prompt-input" class="w-full p-4 mb-4 border border-gray-300 rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500" rows="4" placeholder="Ej: 'Ideas para una cena romántica en casa' o 'Estructura para un email de presentación profesional'."></textarea>
-                    <button id="generate-btn" class="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-md transition duration-300 ease-in-out transform hover:scale-105">
-                        <span id="btn-text">Generar Respuesta ✨</span>
-                        <div id="loading-spinner" class="loading-animation hidden mx-auto"></div>
-                    </button>
-                    <div id="result-container" class="mt-6 p-4 bg-gray-100 rounded-md text-left hidden">
-                        <h3 class="font-bold text-lg mb-2">Respuesta de IA:</h3>
-                        <p id="result-text" class="text-gray-700"></p>
-                    </div>
-                    <div id="error-message" class="mt-4 text-red-500 hidden">
-                        Ha ocurrido un error. Por favor, inténtalo de nuevo más tarde.
-					</div>
                 </div>
             </div>
         </section>
@@ -156,7 +145,7 @@
                 <div class="bg-indigo-500 text-white p-8 rounded-xl shadow-lg border-4 border-indigo-700">
                     <p class="text-base md:text-lg lg:text-xl mb-4">El curso completo consta de 3 clases de 1 hora.</p>
                     <div class="flex items-baseline justify-center mb-6">
-                        <span class="text-4xl md:text-5xl font-extrabold line-through text-gray-300 mr-4">30€</span>
+                    	<span class="text-4xl md:text-5xl font-extrabold line-through text-gray-300 mr-4">30€</span>
                         <span class="text-5xl md:text-6xl font-extrabold">25€</span>
                     </div>
                     <p class="text-base md:text-lg lg:text-xl font-semibold mb-6">
@@ -212,7 +201,7 @@
     </main>
 
     <!-- Pie de página -->
-    <footer class="bg-gray-900 text-gray-400 py-8 px-4 md:px-8 text-center">
+    <footer role="contentinfo" class="bg-gray-900 text-gray-400 py-8 px-4 md:px-8 text-center">
         <p>&copy; 2025 Vida con IA. Todos los derechos reservados.</p>
     </footer>
 
